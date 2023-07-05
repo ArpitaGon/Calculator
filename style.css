@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    color: blue;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container button {
+     flex: 0.1 0 2%; 
+  }
+  
+
+#num1-el,
+#num2-el {
+    width: 25vh;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: pink;
+    align-content: center;
+  
+}
+.middle{
+  align-content: center;
+}
+
+ button {
+    color: blue;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: rgb(19, 173, 234);
+  }
+  
+  button:active {
+    background-color: #3e3ecf;
+    transition: background-color 0.1s ease;
+  }
+  
+  #sum-el {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #00008b;
+    margin-top: 20px;
+  }
+  
